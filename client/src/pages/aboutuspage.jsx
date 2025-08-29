@@ -164,11 +164,11 @@ export default function AboutUs() {
             Here at Accentrex, our team possess the following core values intrinsic to our daily operations and lives:
           </p>
 
-          <div className="grid grid-cols-3 gap-8 justify-items-center max-w-2xl mx-auto">
+          <div className="grid grid-cols-3 gap-4 md:gap-8 justify-items-center max-w-2xl mx-auto">
             {coreValues.map(({ letter, label, icon }) => (
               <div
                 key={label}
-                className="group relative flex flex-col items-center justify-center h-40 w-32 rounded-lg overflow-hidden bg-white shadow-md cursor-pointer"
+                className="group relative flex flex-col items-center justify-center w-24 h-32 md:w-32 md:h-40 rounded-lg overflow-hidden bg-white shadow-md cursor-pointer"
               >
                 <div className="absolute inset-0 flex items-center justify-center text-3xl font-bold text-[#660000] group-hover:opacity-0 transition duration-300">
                   {letter}
