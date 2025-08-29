@@ -39,7 +39,7 @@ function Services() {
         />
       </div>
 
-      <Footer /> {/* ✅ Footer component used here */}
+      <Footer /> {/* Footer component used here */}
     </div>
   );
 }
