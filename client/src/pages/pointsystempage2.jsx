@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const PointSystemPart2 = () => {
+  const navigate = useNavigate();
   const [points, setPoints] = useState({
     ausStudy: 0,
     specialistEdu: 0,
@@ -209,7 +211,7 @@ const PointSystemPart2 = () => {
 
         {/* Navigation Buttons */}
         <div className="flex justify-between mt-6">
-          <button className="bg-gray-200 text-[#611221] px-6 py-2 rounded-lg hover:bg-gray-300 transition">
+          <button className="bg-gray-200 text-[#611221] px-6 py-2 rounded-lg hover:bg-gray-300 transition" onClick={() => navigate("/enroll")}>
             &lt;&lt; Previous
           </button>
           <button className="bg-[#611221] text-white px-6 py-2 rounded-lg hover:bg-[#831515] transition">

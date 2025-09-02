@@ -1,7 +1,6 @@
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import globeImage from '../assets/globe-image.png';
-import flyerImage from '../assets/flyer-image.png';
 import AIcon from '../assets/icons/a-accountability.png';
 import CIcon from '../assets/icons/c-commitment.png';
 import CIcon2 from '../assets/icons/c-clarity.png';

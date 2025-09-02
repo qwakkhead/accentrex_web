@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom"; // Add this import
 
 // Reusable Radio Group Component
 const RadioGroup = ({ name, title, options, onChange }) => (
@@ -179,11 +180,13 @@ const PointSystem = () => {
           </p>
         </div>
 
-        {/* Next button */}
+         {/* Next button */}
         <div className="mt-6 text-right">
-          <button className="bg-[#611221] text-white px-6 py-2 rounded-lg hover:bg-[#831515] transition">
-            Next &gt;&gt;
-          </button>
+          <Link to="part2">
+            <button className="bg-[#611221] text-white px-6 py-2 rounded-lg hover:bg-[#831515] transition">
+              Next &gt;&gt;
+            </button>
+          </Link>
         </div>
       </div>
     </div>
